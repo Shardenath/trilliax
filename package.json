@@ -1,0 +1,11 @@
+{
+    "name": "Trilliax",
+    "version": "1.0.0",
+    "description": "Discord bot for our guild",
+    "main": "bot.js",
+    "author": "Nath",
+    "dependencies": {
+        "discord.io": "github:woor/discord.io#gateway_v6",
+        "winston": "^2.4.1"
+    }
+}
