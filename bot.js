@@ -49,7 +49,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 case '!cake':
                     bot.sendMessage({
                         to: channelID,
-                        message: 'Have a bite master, I know its your favorite.'
+                        message: 'Have a bite master I know its your favorite'
                     });
             break;
             //Add case commands
