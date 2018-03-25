@@ -38,4 +38,25 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
 });
 
+bot.on('message', function (user, userID, channelID, message, evt) {
+        if (message.substring(0, 1) == '!') {
+            var args = message.substring(1).split(' ');
+            var cmd = args[0];
+
+            args = args.splice(1);
+            switch (cmd) {
+                //!Trilliax
+                case '!cake':
+                    bot.sendMessage({
+                        to: channelID,
+                        message: "Have a bite master, I know it's your favorite.:cake: :fork_and_knife:"
+                    });
+            break;
+            //Add case commands
+        }
+
+    }
+
+});
+
 client.login(process.env.BOT_TOKEN);
